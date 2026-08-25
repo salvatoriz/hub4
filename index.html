@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Nocteris — plataformas, recursos e comunidade.">
+<title>Nocteris</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<div class="glow glow-a"></div>
+<div class="glow glow-b"></div>
+
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">N</span><span>Nocteris</span></a>
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#progresso">Progresso</a>
+  <a href="parcerias.html" class="partnership-nav">Parcerias</a></nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="eyebrow"><span>✦</span> um lugar para encontrar tudo</div>
+  <h1>Nocteris</h1>
+  <p>Plataformas, materiais e comunidades organizados em uma experiência simples, rápida e elegante.</p>
+  <div class="hero-actions">
+    <a class="primary-btn" href="#recursos">Explorar <span>↓</span></a>
+    <a class="secondary-btn" href="#equipe">Conhecer a equipe</a>
+  </div>
+  <div class="hero-orbit"><span></span><i></i><b></b></div>
+</section>
+
+<section id="recursos" class="resources">
+  <div class="section-intro">
+    <div><span class="kicker">CENTRAL</span><h2>Escolha onde entrar</h2></div>
+    <p>Recursos do Nocteris em um só lugar.</p>
+  </div>
+
+  <div class="feature-grid">
+    <a class="feature-card feature-script" href="scripts.html">
+      <div class="feature-icon">✦</div>
+      <div class="card-tag">10 PLATAFORMAS</div>
+      <h3>Scripts</h3>
+      <p>Suas atividades escolares, <em>no automático.</em></p>
+      <span class="card-link">Abrir plataformas <b>→</b></span>
+    </a>
+
+    <a class="feature-card feature-books" href="https://nocteriss-apostilas.vercel.app/" target="_blank" rel="noopener noreferrer">
+      <div class="feature-icon">▱</div>
+      <div class="card-tag">BIBLIOTECA EXTERNA</div>
+      <h3>Apostilas</h3>
+      <p>Entre diretamente na biblioteca de apostilas do Nocteris.</p>
+      <span class="card-link">Abrir biblioteca <b>↗</b></span>
+    </a>
+
+    <button class="feature-card feature-ai" id="aiCard" type="button">
+      <div class="feature-icon">✦</div>
+      <div class="card-tag soon">EM BREVE</div>
+      <h3>Novidades</h3>
+      <p>Uma nova área está sendo preparada. Em breve você poderá acessar por aqui.</p>
+      <span class="card-link">Aguardando lançamento <b>•</b></span>
+    </button>
+  </div>
+</section>
+
+<section class="support-section">
+  <div class="support-card">
+    <div class="support-copy">
+      <span class="kicker">APOIE O PROJETO</span>
+      <h2>Ajude o Nocteris a continuar.</h2>
+      <p>Se você quiser apoiar o desenvolvimento dos projetos, pode fazer uma doação pelo botão abaixo.</p>
+      <a class="support-btn" href="https://zpaysolution.com/donate/salvatori" target="_blank" rel="noopener noreferrer">Apoiar o projeto <b>↗</b></a>
+    </div>
+    <a class="support-image" href="https://zpaysolution.com/donate/salvatori" target="_blank" rel="noopener noreferrer">
+      <img src="assets/donation-banner.png" alt="Doação para apoiar o projeto">
+    </a>
+  </div>
+</section>
+
+<section id="equipe" class="team-section">
+  <div class="section-intro team-intro">
+    <div><span class="kicker">COMUNIDADE</span><h2>Equipe & servidores</h2></div>
+    <p>Entre em uma das comunidades.</p>
+  </div>
+
+  <div class="team-grid">
+<a class="server-card" href="https://discord.gg/6SksqueGT4" target="_blank" rel="noopener noreferrer">
+      <img src="assets/dr3m.png" alt="Ícone do Dr3m">
+      <div class="server-info"><span class="server-label">SERVIDOR</span><h3>Dr3m</h3><p>Uma comunidade para conversar e compartilhar.</p></div>
+      <span class="server-arrow">↗</span>
+    </a>
+
+    <a class="server-card featured-server" href="https://discord.gg/yQyDNQWWzB" target="_blank" rel="noopener noreferrer">
+      <img src="assets/nocteris-server.png" alt="Ícone do servidor Nocteris">
+      <div class="server-info"><span class="server-label">NOSSO SERVIDOR</span><h3>Nocteris</h3><p>Entre no servidor oficial e acompanhe as novidades.</p></div>
+      <span class="server-arrow">↗</span>
+    </a>
+  </div>
+</section>
+
+<section id="progresso" class="year-section">
+  <div class="year-copy">
+    <span class="kicker">2026</span>
+    <h2>Quanto já passou?</h2>
+    <p id="progressText">Calculando o tempo restante...</p>
+    <div class="mini-stats">
+      <div><strong id="daysLeft">0</strong><span>dias restantes</span></div>
+      <div><strong id="hoursLeft">00</strong><span>horas</span></div>
+    </div>
+  </div>
+  <div class="progress-card">
+    <div class="progress-head">
+      <div><span>PROGRESSO DO ANO</span><strong id="percent">0%</strong></div>
+      <span id="dateNow">--</span>
+    </div>
+    <div class="progress-track"><div id="progressFill"></div></div>
+    <div class="progress-foot">
+      <span>01 JAN 2026</span>
+      <span id="countdown">000d 00h 00m 00s</span>
+      <span>01 JAN 2027</span>
+    </div>
+  </div>
+</section>
+
+<section id="sobre-mim" class="about-section">
+  <div class="about-card">
+    <div class="about-badge">SOBRE MIM</div>
+    <div class="about-content">
+      <div class="about-avatar">S</div>
+      <div>
+        <h2>OI, SOU O SALVATORI</h2>
+        <p>Tenho <strong>17 anos</strong> e sou apaixonado por tecnologia e desenvolvimento. Gosto de criar soluções voltadas para <strong>automação e produtividade</strong>, buscando facilitar tarefas e otimizar processos. Também admiro projetos que usam a tecnologia para <strong>ajudar estudantes</strong> e tornar o aprendizado mais simples.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="toast" id="toast">
+  <div class="toast-icon">✦</div>
+  <div><b>Área em breve</b><span>Estamos preparando novidades para o Nocteris.</span></div>
+  <button id="closeToast" aria-label="Fechar">×</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
